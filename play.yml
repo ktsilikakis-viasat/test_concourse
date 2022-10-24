@@ -1,0 +1,8 @@
+---
+- name: TEST
+  hosts: all
+  
+  tasks:
+    - name: Display
+      debug:
+        msg: HELLO
